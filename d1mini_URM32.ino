@@ -162,10 +162,10 @@ void get_urm37() {
     //Serial.print("Distance=");
     //Serial.println(USValue);
     //send_val(3, USValue);
-    if (USValue < 230) {
+    if (USValue < 250) {
       gv_dist = USValue * -1;
     } else {
-      gv_dist = -230;
+      gv_dist = -250;
     }
   }
   else {
