@@ -59,7 +59,7 @@ void do_senstick() {
 
 void setup() {
 
-  Serial.begin(9600);                  // Sets the baud rate to 9600
+  Serial.begin(9600);                 // Sets the baud rate to 9600
   //Serial.println("Init the sensor");
 
   wifi_init(gc_hostname);
