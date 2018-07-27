@@ -165,7 +165,7 @@ void get_urm37() {
     if (USValue < 230) {
       gv_dist = USValue * -1;
     } else {
-      gv_dist = 230;
+      gv_dist = -230;
     }
   }
   else {
